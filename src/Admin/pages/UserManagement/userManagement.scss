@@ -1,0 +1,376 @@
+
+.message-main{
+    display: flex;
+    margin-top: 80px;
+    justify-content: center;
+    margin-left: 25px;
+  
+  }
+  
+  .main-container{
+    display: flex;
+    width: 1058px;
+    box-shadow: rgba(39, 39, 44, 0.2) 0px 7px 29px 0px;
+  }
+  
+  
+  .message-left{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+    padding: 25px;
+  }
+  
+  .message-lefttop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    width: 250px;
+  
+  }
+  
+  .message-leftsearch{
+    width: 230px;
+    display: flex;
+    justify-content: start;
+    background-color: #ECECEC;
+    color: #929292;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .message-search{
+    margin-left: 10px;
+  }
+  
+  .message-conv{
+    background-color: aliceblue;
+    width: 270px;
+  }
+  
+  
+  
+  .message-icons{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+   padding: 10px;
+    background-color:#ECECEC ;
+  }
+  
+  .message-icon{
+    width: 75px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #D9D9D9;
+  
+  }
+  
+  .message-icon.active{
+    width: 75px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #F24E53;
+    color: white;
+  
+  }
+  
+  
+  
+  
+  
+  .message-center{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  
+    }
+  
+  
+  
+    .chatMenuWrapper{
+   
+    }
+  
+    .chatBoxBottom{
+      position: absolute;
+      bottom: 0;
+      background-color: white;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+    }
+  
+    .message-centertop{
+      width: 100%;
+      height: 50px;
+      background-color: white;
+      display: flex;
+      flex-direction: row;
+  
+      align-items: center;
+      
+    }
+  
+    .chatMessageInput{
+      width: 420px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+      background-color: #ECECEC ;
+      padding: 5px;
+      border-radius: 5px 0 0px 5px;
+    }
+    .message-send{
+      border: none;
+      font-size: 25px;
+      font-weight: 100;
+      background-color: #ECECEC;
+      border-radius: 0 5px 5px 0 ;
+    }
+  
+    .chatBoxTop{
+   
+      height: 500px;
+      overflow-y: scroll;
+  
+    }
+  
+  
+    .mesgimagePreview{
+      width: 100px;
+      height: 100px;
+    }
+  
+    .message-right{
+      background-color: #ECECEC;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+    
+    .message-righticons{
+      background-color: #F24E53;
+      width: 35px;
+      height: 35px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+  
+    }
+  
+    .message-righticon{
+      width: 200px;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+  
+    .messageiconset{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .messagerighttext{
+      margin-top: 3px;
+      font-size: 12px;
+    }
+  
+    .message-righttop{
+      width: 100%;
+      height: 50px;
+      margin-bottom: 50px;
+      background-color: white;
+    }
+  
+    .messageopen{
+     width: 50%;
+     display: flex;
+     justify-content: center;
+    }
+  
+    .messager-list{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  
+      padding: 0 25px;
+    }
+  
+    .clubsngroup{
+      width: 100%;
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      height: 150px;
+      justify-content: space-around;
+    }
+  
+    .message-listicon{
+      background-color: white;
+      height: 25px;
+      width: 25px;
+      border-radius: 100%;
+      margin-right: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .messageopenname{
+      margin-left: -40px;
+    }
+  
+    .messageinfolist{
+      display: flex;
+      width: 100%;
+      flex-direction: row;
+     justify-content: space-around;
+    }
+  
+    .messageinfos{
+      background-color: #F24E53;
+      color: white;
+      border-radius: 5px;
+      padding: 5px 15px;
+    }
+  
+    .messagegropupicdiv{
+      position: relative;
+     border-radius: 100%;
+     width: fit-content;
+     height: fit-content;
+    }
+  
+    .messagegrouppre{
+      width: 45px;
+      height: 45px;
+      border-radius: 100%;
+    }
+  
+  
+    .messagegroupinputs{
+      background-color: #d2d2d2;
+      display: flex;
+      flex-direction: row;
+      justify-content: start;
+      align-items: center;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  
+  .messagegroupname{
+    background-color: #cbcaca;
+    margin-left: 15px;
+    height: 30px;
+    width: 300px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .messagepicplus{
+  position: absolute;
+  bottom: 5px;
+  right: 1px;
+  }
+  
+  .messageallselected{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  
+  
+  
+  .msgpostProfilePic{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 20px;
+  
+  }
+  
+  .msgpostprofile{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .msgprofilewrong{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+  
+  }
+  
+  .messagefriendheading{
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+  .messagefreindscont{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  .messagefreinds{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+    width: 80%;
+    padding: 15px;
+    overflow-y: scroll;
+  }
+  
+  .messagediv{
+    width: 150px;
+   margin-bottom: 15px;
+  }
+  
+  .messagegropucreate{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .messagegropucreatebtn{
+    border: none;
+    background-color: #F24E53;
+    border-radius: 5px;
+    padding: 7px 20px;
+    color: white;
+  }
+  
+  
+  .clubmemeberbooxmsg{
+    padding: 30px 20px;
+    height: 250px;
+    overflow-y: scroll;
+  }
+  
+  .mesgboxbtns{
+    display: flex;
+    flex-direction: row;
+  }

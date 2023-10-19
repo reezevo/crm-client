@@ -1,0 +1,64 @@
+.messagegrouppre{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+  }
+
+  .messagepicplus{
+    position: absolute;
+    bottom: 5px;
+    right: 1px;
+    }
+
+    .messagegropupicdiv{
+        position: relative;
+       border-radius: 100%;
+       width: fit-content;
+       height: fit-content;
+      }
+
+     .postProfilePic{
+      width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    margin: 15px;
+     }
+     
+     .line{
+      background-color: gray;
+      height:1px;
+     }
+
+      
+  .tb-search {
+    border-radius: 40px;
+    background-color: #fff;
+    color: #c4c4c4;
+    width: 550px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    font-size: 14px;
+    margin-bottom: 15px;
+    border: none;
+  
+    box-shadow: 3px 4px 20px 0px rgb(191, 191, 191);
+  }
+  .tb-search-input {
+    border: none;
+    background-color: #fff;
+    color: #c4c4c4;
+    width: 70%;
+    height: 70%;
+  }
+  
+  .tb-search-icon {
+    margin-right: 10px;
+  }
+      
+  .search-link{
+    margin-right: 15px;
+    border-color:aqua;
+  }
