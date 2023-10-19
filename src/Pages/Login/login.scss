@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #e7243b;
+    background-color: #000000;
     /* background-image: url("./back.png");
       background-repeat: no-repeat;
       background-size: cover; */
@@ -47,7 +47,7 @@
     height: 90vh;
     background-color: #000000;
     border: none;
-    box-shadow: 6px 6px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 6px 50px rgba(96, 96, 96, 0.5);
   }
   
   .login-linktext {
@@ -63,7 +63,7 @@
     height: 80vh;
     background-color: #ffffff;
     border: none;
-    box-shadow: 6px 6px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 6px 6px 50px rgba(96, 96, 96, 0.5);
   }
   
   .login-right-bottom {
@@ -146,7 +146,7 @@
   .login-button {
     margin-top: 20px;
     padding: 15px 70px;
-    background-color: #44b0ec;
+    background-color: #000000;
     color: #fff;
     border: none;
     font-family: Arial, Helvetica, sans-serif;
