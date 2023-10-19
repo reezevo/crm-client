@@ -43,7 +43,7 @@ function Login() {
           <form className='login-form' onSubmit={handleSubmit}>
             <h2 className='login-logintext'>Login</h2>
             <div className='login-input'>
-              <label htmlFor="email">email or email</label>
+              <label htmlFor="email">Email</label>
               <input type="text" ref={email} id="email" required />
             </div>
             <div className='login-input'>
